@@ -1,0 +1,73 @@
+:root{
+    --primery-text-color:#212121;
+    --wighte-texp-color:#ffffff;
+    --accent-text-color:#2196f3;
+    --second-text-color:#757575;
+}
+body{
+    background-color: #F5F5F5;
+    color: #212121;
+    
+}
+.list{
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+}
+.links:visited{
+    color:var(--primery-text-color);
+}
+/* Logo */
+.logo {
+color: var(--primery-text-color);
+
+}
+.logo_web{
+    color: var(--accent-text-color);
+}
+/* site-nav */
+.site-nav a:hover,.site-nav a:focus {
+    color:var(--accent-text-color);
+    }
+/* секція конопки */
+.button{
+    color: var(--wighte-texp-color);
+    width: 216px;
+    height: 50px;
+    background-color: var(--accent-text-color);
+    border: 1px solid ;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor:pointer;
+    border-color: transparent;
+}
+.button:hover,.button:focus {
+    color: var(--wighte-texp-color);
+background-color: var(--accent-text-color);
+    transition: 0.5s;
+    
+}
+
+
+
+
+/* секція контакти хедер */
+.contacts-links{
+    color: var(--second-text-color);
+    text-decoration: none;
+
+}
+.contacts-links:hover, .contacts-links:focus{
+    color: var(--accent-text-color);
+}
+
+
+/* .hero-title
+.section-title
+заголовки секцій */
+/* 
+сеція переваг
+.our-advantages секція 
+.advantages-list заголовок
+.description-advantages текст */
