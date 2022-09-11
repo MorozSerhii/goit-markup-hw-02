@@ -1,6 +1,6 @@
 :root{
     --primery-text-color:#212121;
-    --wighte-texp-color:#ffffff;
+    --wighte-text-color:#ffffff;
     --accent-text-color:#2196f3;
     --second-text-color:#757575;
 }
@@ -15,26 +15,37 @@ body{
 }
 .links{
     text-decoration: none;
+    
 }
 .links:visited{
     color:var(--primery-text-color);
 }
 /* Logo */
 .logo {
-color: var(--primery-text-color);
-font-family: 'Raleway', sans-serif;
+    color: var(--primery-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .logo_web{
     color: var(--accent-text-color);
    
 }
 /* site-nav */
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .site-nav a:hover,.site-nav a:focus {
     color:var(--accent-text-color);
     }
 /* секція конопки */
 .button{
-    color: var(--wighte-texp-color);
+    color: var(--wighte-text-color);
     width: 216px;
     height: 50px;
     background-color: var(--accent-text-color);
@@ -43,18 +54,25 @@ font-family: 'Raleway', sans-serif;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor:pointer;
     border-color: transparent;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
 }
 .button:hover,.button:focus {
-    color: var(--wighte-texp-color);
-background-color: var(--accent-text-color);
-    transition: 0.5s;
-    
+    color: var(--wighte-text-color);
+  
 }
 
 
 
 
 /* секція контакти хедер */
+.contacts_section{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .contacts-links{
     color: var(--second-text-color);
     text-decoration: none;
@@ -64,12 +82,82 @@ background-color: var(--accent-text-color);
     color: var(--accent-text-color);
 }
 
+.hero-title{
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.advantages-list{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.description-advantages{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+         color:var(--second-text-color);
+}
+.section-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+}
+/* Наша команда */
+.team-list{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;      
+}
+.profession-name{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--second-text-color);
+}
+/* footer */
+.journey_link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color:var(--wighte-text-color);
+        letter-spacing: 0.03em;
+        font-style: normal;
+        text-decoration: none;
+}
+.journey_link:visited {
+    color: var(--wighte-text-color);
+    
+}
+.journey_link:hover, .journey_link:focus{
+    color: var(--accent-text-color);
+}
+.address-links{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
+        
+}
+.footer{
+    margin: 0;
+display: block;
+    background-color: #2F303A;
 
-/* .hero-title
-.section-title
-заголовки секцій */
-/* 
-сеція переваг
-.our-advantages секція 
-.advantages-list заголовок
-.description-advantages текст */
+}
+.footer-list{
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 60px;
+}
+
+.list{
+    padding: 0px;
+}
