@@ -7,7 +7,8 @@
 body{
     background-color: #F5F5F5;
     color: #212121;
-    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -21,10 +22,11 @@ body{
 /* Logo */
 .logo {
 color: var(--primery-text-color);
-
+font-family: 'Raleway', sans-serif;
 }
 .logo_web{
     color: var(--accent-text-color);
+   
 }
 /* site-nav */
 .site-nav a:hover,.site-nav a:focus {
