@@ -1,163 +1,155 @@
-:root{
-    --primery-text-color:#212121;
-    --wighte-text-color:#ffffff;
-    --accent-text-color:#2196f3;
-    --second-text-color:#757575;
+:root {
+  --primery-text-color: #212121;
+  --wighte-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --second-text-color: #757575;
+  --button-activ-color: #188ce8;
 }
-body{
-    background-color: #F5F5F5;
-    color: #212121;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
+body {
+  background-color: #f5f5f5;
+  color: var(--primery-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.links{
-    text-decoration: none;
-    
+.links {
+  text-decoration: none;
 }
-.links:visited{
-    color:var(--primery-text-color);
+.links:visited {
+  color: var(--primery-text-color);
 }
 /* Logo */
 .logo {
-    color: var(--primery-text-color);
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+  color: var(--primery-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
-.logo_web{
-    color: var(--accent-text-color);
-   
+.logo_web {
+  color: var(--accent-text-color);
 }
 /* site-nav */
-.site-nav{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.site-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.site-nav a:hover,.site-nav a:focus {
-    color:var(--accent-text-color);
-    }
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-text-color);
+}
 /* секція конопки */
-.button{
-    color: var(--wighte-text-color);
-    width: 216px;
-    height: 50px;
-    background-color: var(--accent-text-color);
-    border: 1px solid ;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    cursor:pointer;
-    border-color: transparent;
-    font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
+.button {
+  color: var(--wighte-text-color);
+  width: 216px;
+  height: 50px;
+  background-color: var(--accent-text-color);
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
 }
-.button:hover,.button:focus {
-    color: var(--wighte-text-color);
-  
+.button:hover,
+.button:focus {
+  background-color: var(--button-activ-color);
 }
-
-
-
 
 /* секція контакти хедер */
-.contacts_section{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.contacts_section {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.contacts-links{
-    color: var(--second-text-color);
-    text-decoration: none;
+.contacts-links {
+  color: var(--second-text-color);
+  text-decoration: none;
+}
+.contacts-links:hover,
+.contacts-links:focus {
+  color: var(--accent-text-color);
+}
 
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.contacts-links:hover, .contacts-links:focus{
-    color: var(--accent-text-color);
+.advantages-list {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-
-.hero-title{
-    font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+.description-advantages {
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
-.advantages-list{
-    font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
-.description-advantages{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-         color:var(--second-text-color);
-}
-.section-title{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 /* Наша команда */
-.team-list{
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;      
+.team-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
-.profession-name{
-font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--second-text-color);
+.profession-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--second-text-color);
 }
 /* footer */
-.journey_link{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        color:var(--wighte-text-color);
-        letter-spacing: 0.03em;
-        font-style: normal;
-        text-decoration: none;
+.journey_link {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--wighte-text-color);
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
 }
 .journey_link:visited {
-    color: var(--wighte-text-color);
-    
+  color: var(--wighte-text-color);
 }
-.journey_link:hover, .journey_link:focus{
-    color: var(--accent-text-color);
+.journey_link:hover,
+.journey_link:focus {
+  color: var(--accent-text-color);
 }
-.address-links{
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        font-style: normal;
-        
+.address-links {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
-.footer{
-    margin: 0;
-display: block;
-    background-color: #2F303A;
-
-}
-.footer-list{
-    padding-top: 60px;
-    padding-left: 215px;
-    padding-bottom: 60px;
+.footer {
+  margin: 0;
+  display: block;
+  background-color: #2f303a;
 }
 
-.list{
-    padding: 0px;
+.footer-list {
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 60px;
+}
+
+.list {
+  padding: 0px;
 }
