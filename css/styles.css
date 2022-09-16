@@ -165,7 +165,7 @@ body {
   margin: 0 auto;
   background-color: #2f303a;
 }
-/* фон та відступи  задані для читабельності */
+/* фон та відступи в футері задані для читабельності */
 
 .footer-list {
   padding-top: 60px;
@@ -197,6 +197,7 @@ body {
   font-size: 16px;
   line-height: calc(26 / 16);
   cursor: pointer;
+  color: var(--primery-text-color);
 
   border-color: transparent;
   background-color: var(--background-color-second);
