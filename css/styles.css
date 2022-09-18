@@ -8,6 +8,7 @@
   --background-color-main: #ffffff;
   --background-color-second: #f5f4fa;
   --accent-button-color: #2196f3;
+  --background-hero-color:#2F303A; 
 }
 body {
   background-color: var(--background-color-main);
@@ -99,14 +100,20 @@ body {
   color: var(--accent-text-color);
 }
 /* --------------Герой------------ */
+
+.hero-section{
+  background-color:var(--background-hero-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  color: var(--wighte-text-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .advantages-list {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
